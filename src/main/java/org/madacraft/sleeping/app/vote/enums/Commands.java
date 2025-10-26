@@ -1,4 +1,4 @@
-package org.madacraft.sleeping.vote.enums;
+package org.madacraft.sleeping.app.vote.enums;
 
 public enum Commands {
     VOTE,

@@ -1,4 +1,4 @@
-package org.madacraft.sleeping.shared.log;
+package org.madacraft.sleeping.app.shared.log;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

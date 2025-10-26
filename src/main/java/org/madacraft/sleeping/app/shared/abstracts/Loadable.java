@@ -1,13 +1,13 @@
-package org.madacraft.sleeping.shared.abstracts;
+package org.madacraft.sleeping.app.shared.abstracts;
 
 import org.bukkit.command.CommandExecutor;
 import org.madacraft.sleeping.Sleeping;
-import org.madacraft.sleeping.shared.log.Log;
-import org.madacraft.sleeping.vote.enums.Commands;
+import org.madacraft.sleeping.app.shared.log.Log;
+import org.madacraft.sleeping.app.vote.enums.Commands;
 
 public abstract class Loadable implements CommandExecutor {
     protected final Sleeping plugin;
-    private Commands command;
+    private final Commands command;
     private final Log logger = Log.LOGGER;
 
     public Loadable(Sleeping plugin, Commands command) {
