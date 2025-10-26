@@ -1,0 +1,14 @@
+services:
+  server:
+    image: 'itzg/minecraft-server:java21-graalvm'
+    container_name: 'mc-dev-server'
+    volumes:
+      - './.volumes/minecraft/data:/data'
+    environment:
+      EULA: 'TRUE'
+      VERSION: '1.21.8'
+      ENABLE_RCON: true
+      SERVER_PORT: '8000'
+      TYPE: 'SPIGOT'
+    ports:
+      - '8000:8000'

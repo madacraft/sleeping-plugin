@@ -1,0 +1,17 @@
+main: 'org.madacraft.sleeping.Sleeping'
+name: 'sleeping-plugin'
+version: '1.0-SNAPSHOT'
+description: 'Sleeping vote Plugin'
+commands:
+  hatory:
+    usage: '/hatory'
+    description: 'Request a vote for sleeping'
+    aliases: ['sleep']
+  hatory.eny:
+    description: 'Vote yes to sleeping request'
+    usage: '/hatory.eny'
+  hatory.tsia:
+    description: 'Vote no to sleeping request'
+    usage: '/hatory.tsia'
+
+
